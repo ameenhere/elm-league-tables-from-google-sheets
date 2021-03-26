@@ -105,9 +105,9 @@ allColumns viewportWidth =
         , won el "W" 21 1
         , drawn el "D" 21 1
         , lost el "L" 21 1
-        , goalsFor el "GF" 21 0
-        , goalsAgainst el "GA" 21 0
-        , goalDifference el "GD" 21 5
+        , goalsFor el "RW" 21 0
+        , goalsAgainst el "RL" 21 0
+        , goalDifference el "RD" 21 5
         , points el "Pts" 26 7
         ]
 
@@ -119,9 +119,9 @@ allColumns viewportWidth =
         , won el "Won" 41 1
         , drawn el "Drawn" 56 1
         , lost el "Lost" 41 1
-        , goalsFor multiline "Goals For" 49 0
-        , goalsAgainst multiline "Goals Against" 65 0
-        , goalDifference multiline "Goal Difference" 83 5
+        , goalsFor multiline "Rounds Won" 49 0
+        , goalsAgainst multiline "Rounds Lost" 65 0
+        , goalDifference multiline "Round Difference" 83 5
         , points el "Points" 53 7
         ]
 
@@ -133,9 +133,9 @@ allColumns viewportWidth =
         , won el "Won" 49 1
         , drawn el "Drawn" 68 1
         , lost el "Lost" 49 1
-        , goalsFor multiline "Goals For" 59 0
-        , goalsAgainst multiline "Goals Against" 78 0
-        , goalDifference multiline "Goal Difference" 99 5
+        , goalsFor multiline "Rounds Won" 59 0
+        , goalsAgainst multiline "Rounds Lost" 78 0
+        , goalDifference multiline "Round Difference" 99 5
         , points el "Points" 63 7
         ]
 
@@ -147,9 +147,9 @@ allColumns viewportWidth =
         , won el "Won" 66 1
         , drawn el "Drawn" 90 1
         , lost el "Lost" 65 1
-        , goalsFor multiline "Goals For" 79 0
-        , goalsAgainst multiline "Goals Against" 104 0
-        , goalDifference multiline "Goal Difference" 132 5
+        , goalsFor multiline "Rounds For" 79 0
+        , goalsAgainst multiline "Rounds Against" 104 0
+        , goalDifference multiline "Round Difference" 132 5
         , points el "Points" 85 7
         ]
 
