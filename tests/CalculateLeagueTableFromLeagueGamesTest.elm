@@ -14,7 +14,7 @@ import Calculations.LeagueTableFromLeagueGames exposing (calculateLeagueTable)
 
 oneGame : Test
 oneGame =
-    fuzz (intRange 1 100) "Calculates one game" <|
+    fuzz (intRange 1 2) "Calculates one game" <|
         \(meridianGoals) ->
             let
                 castleGoals = meridianGoals * 2
