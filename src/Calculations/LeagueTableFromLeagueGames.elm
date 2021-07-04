@@ -226,7 +226,7 @@ homePoints game =
             if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 6 && awayTeamGoalCount < 5 then
                 3
 
-            else if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 7 && awayTeamGoalCount < 6 then
+            else if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 7 && awayTeamGoalCount < 6 then
                 3
 
             else if homeTeamGoalCount < awayTeamGoalCount && awayTeamGoalCount == 7 && homeTeamGoalCount < 6 then
@@ -252,7 +252,7 @@ awayPoints game =
             if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 6 && awayTeamGoalCount < 5 then
                 0
 
-            else if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 7 && awayTeamGoalCount < 6 then
+            else if homeTeamGoalCount > awayTeamGoalCount && homeTeamGoalCount == 7 && awayTeamGoalCount < 6 then
                 0
 
             else if homeTeamGoalCount < awayTeamGoalCount && awayTeamGoalCount == 7 && homeTeamGoalCount < 6 then
