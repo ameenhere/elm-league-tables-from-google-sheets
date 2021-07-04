@@ -223,10 +223,10 @@ homePoints : DecodedGame -> Int
 homePoints game =
     case ( game.homeTeamGoalCount, game.awayTeamGoalCount ) of
         ( Just homeTeamGoalCount, Just awayTeamGoalCount ) ->
-            if homeTeamGoalCount > awayTeamGoalCount && ((homeTeamGoalCount == 6 && awayTeamGoalCount<5) || (homeTeamGoalCount == 7 && awayTeamGoalCount<6))  then
+            if (homeTeamGoalCount > awayTeamGoalCount && ((homeTeamGoalCount == 6 && awayTeamGoalCount<5) || (homeTeamGoalCount == 7 && awayTeamGoalCount<6)))  then
                 3
 
-            else if homeTeamGoalCount < awayTeamGoalCount && ((awayTeamGoalCount == 6 && homeTeamGoalCount<5) || (awayTeamGoalCount == 7 && homeTeamGoalCount<6)) then
+            else if (homeTeamGoalCount < awayTeamGoalCount && ((awayTeamGoalCount == 6 && homeTeamGoalCount<5) || (awayTeamGoalCount == 7 && homeTeamGoalCount<6))) then
                 0
             
             else if homeTeamGoalCount > awayTeamGoalCount    then
@@ -243,10 +243,10 @@ awayPoints : DecodedGame -> Int
 awayPoints game =
     case ( game.homeTeamGoalCount, game.awayTeamGoalCount ) of
         ( Just homeTeamGoalCount, Just awayTeamGoalCount ) ->
-            if homeTeamGoalCount > awayTeamGoalCount && ((homeTeamGoalCount == 6 && awayTeamGoalCount<5) || (homeTeamGoalCount == 7 && awayTeamGoalCount<6))  then
+            if (homeTeamGoalCount > awayTeamGoalCount && ((homeTeamGoalCount == 6 && awayTeamGoalCount<5) || (homeTeamGoalCount == 7 && awayTeamGoalCount<6)))  then
                 0
 
-            else if homeTeamGoalCount < awayTeamGoalCount && ((awayTeamGoalCount == 6 && homeTeamGoalCount<5) || (awayTeamGoalCount == 7 && homeTeamGoalCount<6)) then
+            else if (homeTeamGoalCount < awayTeamGoalCount && ((awayTeamGoalCount == 6 && homeTeamGoalCount<5) || (awayTeamGoalCount == 7 && homeTeamGoalCount<6))) then
                 3
             
             else if homeTeamGoalCount > awayTeamGoalCount    then
